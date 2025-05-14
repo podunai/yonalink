@@ -1,0 +1,7 @@
+# Dependencies
+node_modules
+
+# Config files
+.eslintrc.js
+.prettierrc.js
+playwright.config.ts

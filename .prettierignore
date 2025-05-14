@@ -1,0 +1,23 @@
+# Dependencies
+node_modules
+
+# Production
+dist
+dist-ssr
+build
+
+# Config files
+.commitlintrc.js
+.eslintrc.js
+.prettierrc.js
+.lintstagedrc.js
+.stylelintrc.js
+.releaserc.js
+jest.config.js
+jest.setup.js
+next.config.js
+playwright.config.js
+
+# Testing
+__mocks__
+coverage
