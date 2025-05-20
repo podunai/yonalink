@@ -30,10 +30,14 @@ This project contains automated UI tests for the Yonalink web application, imple
    git clone https://github.com/yourusername/yonalink-tests.git
 
 2. Install dependencies:
+
+   ```bash
    npm install
    npx playwright install
 
 3. Install dependencies:
+
+   ```bash
    npx playwright install
 
 ## Running Tests
