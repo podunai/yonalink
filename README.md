@@ -35,10 +35,14 @@ This project contains automated UI tests for the Yonalink web application, imple
    npm install
    npx playwright install
 
-3. Install dependencies:
-
-   ```bash
-   npx playwright install
-
 ## Running Tests
     npx playwright test
+
+## 🧪 Test Steps
+
+This automated test validates the **"Request a Demo"** form on [yonalink.com](https://www.yonalink.com) by performing the following steps:
+
+1. Open the **yonalink.com** website
+2. Click on **"Schedule a Demo"** button in the top-right corner
+3. Fill out the form using data from a CSV file (3 different clients with different optional fields)
+4. Submit the form and validate error handling (form error message is expected)
