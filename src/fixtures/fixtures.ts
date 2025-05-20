@@ -1,13 +1,13 @@
 import { test as base, expect } from "@playwright/test";
 import { HomePage } from "../pages/HomePage";
-import { ProductPage } from "../pages/ProductPage";
-import { CheckoutPage } from "../pages/CheckoutPage";
+import { RequestDemoPage } from "../pages/RequestDemoPage";
+import { BasePage } from "../pages/BasePage";
 
 type MyFixtures = {
   app: {
     homePage: HomePage;
-    productPage: ProductPage;
-    checkoutPage: CheckoutPage;
+    requestDemoPage: RequestDemoPage;
+    basePage: BasePage;
   };
 };
 
@@ -19,10 +19,9 @@ export const test = base.extend<MyFixtures>({
   app: async ({ page }, use) => {
     const app = {
       homePage: new HomePage(page),
-      productPage: new ProductPage(page),
-      checkoutPage: new CheckoutPage(page),
+      requestDemoPage: new RequestDemoPage(page),
+      basePage: new BasePage(page),
     };
-
     await use(app);
   },
 });

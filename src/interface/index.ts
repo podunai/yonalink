@@ -1,9 +1,10 @@
-export interface Addon {
-  name: string;
-  price: number;
-}
-
-export interface Product {
-  name: string;
-  price: number;
+export interface Client {
+  firstName: string;
+  lastName: string;
+  email: string;
+  country: string;
+  phoneNumber?: string;
+  details?: string;
+  jobTitle?: string;
+  company?: string;
 }

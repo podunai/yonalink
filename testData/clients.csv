@@ -1,0 +1,4 @@
+firstName,lastName,email,country,phoneNumber,details,jobTitle,company
+John,Doe,john.doe@example.com,United States,1234567890,,,
+Jane,Smith,jane.smith@example.com,United Kingdom,,Interested in demo,CTO,TechCorp
+Alex,Brown,alex.brown@example.com,Canada,,,,,

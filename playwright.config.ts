@@ -14,8 +14,7 @@ export default defineConfig({
   reporter: "html",
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    baseURL: "https://store.cpanel.net",
-    trace: "on-first-retry",
+    baseURL: "https://www.yonalink.com/",
   },
   expect: {
     timeout: 30_000,
